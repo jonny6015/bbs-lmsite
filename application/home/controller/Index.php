@@ -1,10 +1,10 @@
 <?php
-namespace app\index\controller;
+namespace app\home\controller;
 
 class Index
 {
     public function index()
     {
-        echo "212314";
+        return view('index');
     }
 }

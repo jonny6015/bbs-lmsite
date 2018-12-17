@@ -1,3 +1,3 @@
 <?php
 
-Route::get('/','index/Index/index');
+Route::get('/','home/index/index');    // 首页
