@@ -1,10 +1,10 @@
 <?php
-namespace app\index\controller;
+namespace app\home\controller;
 
 class Index
 {
     public function index()
     {
-        phpinfo();
+        return view('index');
     }
 }
